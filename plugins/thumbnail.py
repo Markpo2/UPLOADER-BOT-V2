@@ -17,7 +17,6 @@ from config import Config
 # the Strings used for this "thing"
 from plugins.startmsg import Translation
 from pyrogram import Client as Clinton
-from database.access import clinton
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
