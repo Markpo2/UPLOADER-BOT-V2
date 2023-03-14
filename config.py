@@ -28,6 +28,4 @@ class Config(object):
 
     SESSION_NAME = "uploaderMar_bot"
     
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
-
     MAX_RESULTS = "50"
