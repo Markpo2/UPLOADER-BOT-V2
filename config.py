@@ -22,11 +22,11 @@ class Config(object):
     
     MAX_MESSAGE_LENGTH = 4096
     
-    PROCESS_MAX_TIMEOUT = 3600
+    PROCESS_MAX_TIMEOUT = 0
     
     OWNER_ID = int(os.environ.get("OWNER_ID", "1284818583"))
 
-    SESSION_NAME = "UploadLinkToFileBot"
+    SESSION_NAME = "uploaderMar_bot"
     
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
