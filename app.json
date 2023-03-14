@@ -43,11 +43,6 @@
     "OWNER_ID": {
       "description": "Your Telegram ID",
       "value": ""
-    },
-    
-    "DATABASE_URL": {
-      "description": "Your MongoDB URI",
-      "value": ""
     }
 
   },
