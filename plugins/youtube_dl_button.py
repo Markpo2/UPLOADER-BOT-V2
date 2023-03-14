@@ -18,7 +18,6 @@ from plugins.thumbnail import *
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram.types import InputMediaPhoto
 from helper_funcs.display_progress import progress_for_pyrogram, humanbytes
-from database.access import clinton
 from PIL import Image
 
 async def youtube_dl_call_back(bot, update):
